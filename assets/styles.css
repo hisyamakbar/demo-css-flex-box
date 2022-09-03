@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.section-1 {
+  width: 100%;
+  margin: 150px 0px;
+  background-color: #2f2f2f;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.kolom-kiri {
+  width: 50%;
+  width: 523px;
+  height: 393px;
+}
+
+.kolom-kiri h3 {
+  font-family: "Chillax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.045em;
+}
+
+.kolom-kanan {
+  width: 50%;
+}
