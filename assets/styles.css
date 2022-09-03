@@ -29,23 +29,24 @@ section {
   gap: 44px;
 }
 
-.kolom-kiri {
+.column-left {
   width: 50%;
   width: 523px;
   height: 393px;
   margin: 0px;
 }
 
-.kolom-kiri h3 {
+.column-left h3 {
   font-family: "Chillax";
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
   line-height: 74px;
   letter-spacing: -0.045em;
+  margin: 0;
 }
 
-.kolom-kanan {
+.column-right {
   width: 551px;
   height: 393px;
   margin-bottom: 40px;
@@ -87,5 +88,6 @@ section {
   height: 10px;
 }
 
-.card -open {
+.card.open {
+  color: red;
 }
