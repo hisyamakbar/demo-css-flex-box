@@ -52,7 +52,7 @@ section {
   margin-bottom: 40px;
 }
 
-.card-pack {
+.cards {
   display: flex;
   flex-direction: column;
   gap: 16px;
