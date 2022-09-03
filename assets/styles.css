@@ -15,19 +15,25 @@ body {
   color: #ffffff;
 }
 
-.section-1 {
-  width: 100%;
-  margin: 150px 0px;
+section {
   background-color: #2f2f2f;
+  width: 100%;
+}
+
+.container {
+  margin: 150px 0px;
   padding: 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 44px;
 }
 
 .kolom-kiri {
   width: 50%;
   width: 523px;
   height: 393px;
+  margin: 0px;
 }
 
 .kolom-kiri h3 {
@@ -40,5 +46,46 @@ body {
 }
 
 .kolom-kanan {
-  width: 50%;
+  width: 551px;
+  height: 393px;
+  margin-bottom: 40px;
+}
+
+.card-pack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  padding: 8px 16px;
+
+  background: linear-gradient(
+    143.53deg,
+    rgba(255, 255, 255, 0.2) -90.47%,
+    rgba(255, 255, 255, 0) 215.56%
+  );
+  /* Neutral/500 */
+
+  border: 1px solid #babec1;
+  backdrop-filter: blur(74px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+  align-items: center;
+}
+
+.card .content {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+}
+
+.arrow {
+  width: 17px;
+  height: 10px;
+}
+
+.card -open {
 }
