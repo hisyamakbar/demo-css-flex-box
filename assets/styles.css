@@ -34,12 +34,12 @@ section {
   align-items: center;
   justify-content: center;
   gap: 44px;
+  flex-direction: column;
 }
 
 .column-left {
   width: 50%;
   width: 523px;
-  height: 393px;
   margin: 0px;
 }
 
@@ -59,7 +59,7 @@ section {
 }
 
 .cards {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -108,4 +108,25 @@ section {
 
 .card .open {
   padding: 40px;
+}
+
+/* Tablet */
+
+/* Responsive */
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    margin: 150px 0px;
+    padding: 100px;
+  }
+
+  .column-left {
+    width: 50%;
+    width: 522px;
+    height: 393px;
+  }
+
+  .cards {
+    margin-top: 40px;
+  }
 }
