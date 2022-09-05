@@ -1,12 +1,4 @@
-html,
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,18 +10,18 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
   color: #ffffff;
+  height: 150vh;
 }
 
 section {
   background-color: #2f2f2f;
   width: 100%;
+  padding: 10px;
 }
 
 .container {
-  margin: 150px 0px;
-  padding: 100px;
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +31,7 @@ section {
 
 .column-left {
   width: 50%;
-  width: 523px;
+  /* width: 523px; jangan di kasih height */
   margin: 0px;
 }
 
@@ -55,7 +47,7 @@ section {
 
 .column-right {
   width: 551px;
-  height: 393px;
+  /* height: 393px; jangan di kasih height */
 }
 
 .cards {
@@ -108,6 +100,7 @@ section {
 
 .card .open {
   padding: 40px;
+  max-height: 100%;
 }
 
 /* Tablet */
