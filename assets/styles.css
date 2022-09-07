@@ -18,19 +18,21 @@ section {
   background-color: #2f2f2f;
   width: 100%;
   padding: 10px;
+  margin: 250vh 0;
 }
 
 .container {
   padding: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 44px;
   flex-direction: column;
 }
 
 .column-left {
-  width: 50%;
+  width: fit-content;
+  /* width: 50%; */
   /* width: 523px; jangan di kasih height */
   margin: 0px;
 }
